@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Сделать заказ:</h1>
+    <select name="unittype" required>
+        <option value="">Физическое лицо</option>
+        <option value="1">Юридическое лицо</option>
+     </select>
+    <form action="">
+        <label for="username"></label>
+   <input type="text" placeholder="Фамилия.Имя.Отчество" required >
+   <br>
+   <input type="tel" name="tel" placeholder="Контактный телефон" required >
+   <br>
+   <input type="email" name="email" placeholder="E-mail" required >
+   <br>
+   <select name="unittype" required>
+    <option value="">PAYPAL</option>
+    <option value="1">BELARUSBANK</option>
+    <option value="2">KIWI</option>
+ </select>
+ <br>
+ <select name="cargo" required>
+    <option value="">cargo1</option>
+    <option value="1">cargo2</option>
+    <option value="2">cargo3</option>
+ </select>
+ <br>
+ <input type="file" name="file" >
+ <br>
+ <textarea name="comment" placeholder="Ваш адрес" ></textarea>
+ <br>
+ <textarea name="comment" placeholder="Комментарий к заказу" ></textarea>
+    <br>
+    <button type="submit" >Оформить заказ</button>
+</form>
+</body>
+</html>
